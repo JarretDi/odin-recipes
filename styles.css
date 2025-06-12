@@ -1,0 +1,66 @@
+* {
+box-sizing: border-box;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 16px;
+}
+
+body {
+    background-color: ivory;
+}
+
+h1, h2 {
+    padding: 24px;
+    margin-top: 0px;
+    background-color: beige;
+    color: lightcoral;
+}
+
+h1 {
+    font-size: 40px;
+    border: 2px wheat solid;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    margin: 0px 24px 24px;
+}
+
+.description, .ingredients, .steps {
+    border: 2px wheat solid;
+    margin-top: 12px;
+}
+
+.back {
+    display: inline-block;
+    margin-top:12px
+}
+
+img {
+    width:400px;
+    margin-left: 12px;
+    border: 2px wheat solid;
+}
+
+.recipe-list {
+    color:coral
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.back:link {
+    color:coral;
+}
+
+.back:visited {
+    color:chocolate;
+}
+
+.back:hover {
+    background-color: bisque;
+    color: lightcoral;
+}
